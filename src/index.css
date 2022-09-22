@@ -1,0 +1,125 @@
+/*
+  Imagen1: https://manzdev.github.io/eoi-fullstack/css/stewie.png
+  Imagen2: https://manzdev.github.io/eoi-fullstack/css/stewie-seal.png
+*/
+@import "reset.css";
+
+@font-face {
+    font-family: "Free Booter Script";
+    src: local("Free Booter Script"),
+        url("./fonts/FreebooterScript.woff") format("woff"),
+        url("./fonts/FreebooterScript.woff2") format("woff2"),  
+        url("./fonts/FreebooterScript.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Timeless";
+    src: local("Timeless"),
+        url("./fonts/Timeless-Normal.woff") format("woff"),
+        url("./fonts/Timeless-Normal.woff2") format("woff2"),  
+        url("./fonts/Timeless-Normal.ttf") format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Timeless Bold";
+    src: local("Timeless Bold"),
+        url("./fonts/Timeless-Bold.woff") format("woff"),
+        url("./fonts/Timeless-Bold.woff2") format("woff2"),  
+        url("./fonts/Timeless-Bold.ttf") format("truetype");
+    font-display: swap;
+}
+
+body{
+    background: url(assets/background-texture-wood-pattern.jpg)
+    left / 100% 300% no-repeat;
+    box-shadow: 100px 100px 50px rgba(0, 0, 0, 0.9);
+}
+
+.aviso {
+    margin: 3% 10%;
+    height: auto;
+    width: auto;
+    outline: solid 3px rgb(100, 80, 62);
+    background: url(assets/certificado-con-el-viejo-fondo-de-papel-19803717.jpg)
+    center / 101% 101% no-repeat;
+    display: flex;
+    justify-content: center;
+
+    box-shadow: -20px 70px 50px rgba(0, 0, 0, 0.5) inset,
+                50px -70px 50px rgba(221, 192, 119, 0.2) inset,
+                -100px 30px 1000px black;
+}
+
+
+
+.content {
+    height: 80%;
+    width: 70%;
+    margin: 15% 10%;
+
+
+    font-family: "Timeless", 'DejaVu Sans', serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 140%;
+    text-align: center;
+
+}
+
+.content strong {
+    font-family: "Timeless Bold", 'DejaVu Sans', serif;
+}
+
+p {
+    margin: 3% 0;
+}
+
+.content h1 {
+    font-family: "Free Booter Script", sans-sherif;
+    font-size: 95px;
+    line-height: 200%;
+    letter-spacing: 7px;
+    text-shadow: -10px 10px 20px rgba(0,0,0, 0.5);
+}
+
+.content h4 {
+    margin: 3% 0;
+    text-align:left;
+    line-height: 100%;
+}
+
+.content .clausula {
+    text-align:left;
+}
+
+.content .cap {
+    font-family: "Free Booter Script", sans-sherif;
+    font-size: 30px;
+}
+
+#stewie {
+    margin-left: 75%;
+}
+
+
+
+/* .aviso {
+    height: 1000px;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(assets/certificado-con-el-viejo-fondo-de-papel-19803717.jpg)
+    top center / cover no-repeat;
+    background-size: contain;
+}
+
+.content {
+    text-align: center;
+    text-justify: auto;
+} */
+
