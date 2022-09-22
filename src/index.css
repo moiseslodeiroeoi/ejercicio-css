@@ -31,11 +31,7 @@
     font-display: swap;
 }
 
-body{
-    background: url(assets/background-texture-wood-pattern.jpg)
-    left / 100% 300% no-repeat;
-    box-shadow: 100px 100px 50px rgba(0, 0, 0, 0.9);
-}
+
 
 .aviso {
     margin: 3% 10%;
